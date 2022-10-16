@@ -13,7 +13,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function getSeason(date) {
-  throw new NotImplementedError('Not implemented');
+  // throw new NotImplementedError('Not implemented');
   if (date === 'winter' || date === 'spring' || date === 'summer' || date === 'autumn') {
     return date;
   }
