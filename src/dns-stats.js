@@ -25,7 +25,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function getDNSStats(arr) {
-  // throw new NotImplementedError('Not implemented');
+  throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
 
   let obj = {};
